@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace TeduShop.Model.Models
 {
     [Table("PostTags")]
-    public class PostTags
+    public class PostTag
     {
         [Key]
         public int PostID { get; set; }
